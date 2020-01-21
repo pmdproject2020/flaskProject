@@ -1,0 +1,30 @@
+body{
+    font-family: 'Comic Sans MS';
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 18px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgb(13, 151, 206),rgba(221, 17, 17, 0.788));
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto,minmax(20rem,1fr));
+    grid-gap: 2rem;
+    width: 90%;
+    text-align: center;
+    margin: 10px 5px black;
+    padding: 5px;
+}
+.grid-container > form{
+    background-repeat: no-repeat;
+}
+.btn{
+    background-color: rgba(5, 211, 101, 0.753);
+    color:black;
+}
+.btn:hover{
+    background-color: rgba(218, 30, 70, 0.753);
+    color:white;
+}
+
